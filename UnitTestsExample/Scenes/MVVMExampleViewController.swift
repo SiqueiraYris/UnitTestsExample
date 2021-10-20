@@ -13,7 +13,7 @@ final class MVVMExampleViewController: UIViewController {
         return imageView
     }()
 
-    let actionButton: UIButton = {
+    private let actionButton: UIButton = {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
